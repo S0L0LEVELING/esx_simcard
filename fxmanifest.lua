@@ -3,7 +3,7 @@ games { 'gta5' }
 
 author 'Musiker15'
 description 'ESX SimCard'
-version '1.0'
+version '1.1'
 
 shared_scripts {
 	'@es_extended/locale.lua',
@@ -21,5 +21,6 @@ server_scripts {
 }
 
 dependencies {
-	'es_extended'
+	'es_extended',
+	'mysql-async'
 }
