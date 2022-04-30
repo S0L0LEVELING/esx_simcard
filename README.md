@@ -16,7 +16,7 @@ If you are using Chezza Phone, have a look at the Phone Guides at https://chezza
 Config = {}
 ----------------------------------------------------------------
 Config.Locale = 'de'
-Config.VersionChecker = false
+Config.VersionChecker = true
 Config.Debug = true
 ----------------------------------------------------------------
 Config.hasPhone = true -- Player has to have a phone in inventory
