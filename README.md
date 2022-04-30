@@ -1,7 +1,7 @@
 # esx_simcard
 FiveM Script - Usable Simcard
 
-**Forum:** *soon*
+**Forum:** https://forum.cfx.re/t/release-esx-usable-simcard/4847008
 
 **Discord Support:** https://discord.gg/5hHSBRHvJE
 
