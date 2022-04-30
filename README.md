@@ -40,5 +40,8 @@ end
 * ESX 1.2 *(v1-final)* // Legacy
 * mysql-async // oxmysql
 
+### Optional
+* Chezza Phone (https://forum.cfx.re/t/paid-release-chezzas-phone-v2/4769379)
+
 ## License
 **GNU General Public License v3.0**
