@@ -11,7 +11,7 @@ AddEventHandler('esx_simcard:useItem', function()
     local playerPed = PlayerPedId()
     local genNumber = genNumber()
 
-    ESX.TriggerServerCallback('emergencyPhone:check', function(isExisting)
+    ESX.TriggerServerCallback('esx_simcard:checkNumbers', function(isExisting)
         if not isExisting then
             TriggerServerEvent('esx_simcard:changeNumberDB', genNumber)
         else
