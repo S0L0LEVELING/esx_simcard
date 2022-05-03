@@ -12,7 +12,7 @@ AddEventHandler('esx_simcard:useItem', function()
     local genNumber = genNumber()
 
     ESX.TriggerServerCallback('esx_simcard:checkNumbers', function(isExisting)
-        if not isExisting then
+        if isExisting then
             TriggerServerEvent('esx_simcard:changeNumberDB', genNumber)
         else
             ESX.ShowNotification(_U('numberExist'))
