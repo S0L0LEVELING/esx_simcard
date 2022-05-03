@@ -11,6 +11,8 @@ ESX.RegisterUsableItem(Config.usableItem, function(source)
 		else
 			TriggerClientEvent('esx:showNotification', source, _U('noPhone'))
 		end
+	else
+		TriggerClientEvent('esx_simcard:useItem', source)
 	end
 end)
 
